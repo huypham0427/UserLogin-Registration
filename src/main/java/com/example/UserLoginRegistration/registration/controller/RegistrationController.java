@@ -1,5 +1,8 @@
-package com.example.UserLoginRegistration.registration;
+package com.example.UserLoginRegistration.registration.controller;
 
+import com.example.UserLoginRegistration.appuser.service.AppUserService;
+import com.example.UserLoginRegistration.registration.domain.RegistrationRequest;
+import com.example.UserLoginRegistration.registration.service.RegistrationService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

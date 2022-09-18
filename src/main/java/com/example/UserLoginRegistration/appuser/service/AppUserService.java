@@ -1,5 +1,7 @@
-package com.example.UserLoginRegistration.appuser;
+package com.example.UserLoginRegistration.appuser.service;
 
+import com.example.UserLoginRegistration.appuser.domain.AppUser;
+import com.example.UserLoginRegistration.appuser.repository.AppUserRepository;
 import com.example.UserLoginRegistration.registration.token.ConfirmationToken;
 import com.example.UserLoginRegistration.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
@@ -65,6 +67,7 @@ public class AppUserService implements UserDetailsService {
 
         return token;
     }
+
 
     public int enableAppUser(String email) {
         return appUserRepository.enableAppUser(email);

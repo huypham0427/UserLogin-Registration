@@ -1,9 +1,11 @@
-package com.example.UserLoginRegistration.registration;
+package com.example.UserLoginRegistration.registration.service;
 
-import com.example.UserLoginRegistration.appuser.AppUser;
+import com.example.UserLoginRegistration.appuser.domain.AppUser;
 import com.example.UserLoginRegistration.appuser.AppUserRole;
-import com.example.UserLoginRegistration.appuser.AppUserService;
-import com.example.UserLoginRegistration.email.EmailSender;
+import com.example.UserLoginRegistration.appuser.service.AppUserService;
+import com.example.UserLoginRegistration.email.repository.EmailSender;
+import com.example.UserLoginRegistration.registration.EmailValidator;
+import com.example.UserLoginRegistration.registration.domain.RegistrationRequest;
 import com.example.UserLoginRegistration.registration.token.ConfirmationToken;
 import com.example.UserLoginRegistration.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;

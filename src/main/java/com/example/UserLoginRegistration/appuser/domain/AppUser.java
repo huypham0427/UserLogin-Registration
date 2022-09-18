@@ -1,5 +1,6 @@
-package com.example.UserLoginRegistration.appuser;
+package com.example.UserLoginRegistration.appuser.domain;
 
+import com.example.UserLoginRegistration.appuser.AppUserRole;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

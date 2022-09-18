@@ -1,6 +1,6 @@
 package com.example.UserLoginRegistration.registration.token;
 
-import com.example.UserLoginRegistration.appuser.AppUser;
+import com.example.UserLoginRegistration.appuser.domain.AppUser;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
